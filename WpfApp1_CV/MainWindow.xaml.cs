@@ -63,7 +63,6 @@ namespace WpfApp1_CV
             educationButton.Checked += (sender, e) => educationTextBlock.Visibility = Visibility.Visible;
             educationButton.Unchecked += (sender, e) => educationTextBlock.Visibility = Visibility.Collapsed;
 
-            // Adding Work Experience
             ToggleButton experienceButton = new ToggleButton
             {
                 Content = "Work Experience",
